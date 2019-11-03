@@ -2,10 +2,14 @@
   "name": "hello-type",
   "version": "1.0.0",
   "description": "typescript typing tom-foolery",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon lib/easy/prob38.js",
+    "watch": "tsc -w"
   },
   "author": "Alex",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.19.1",
+    "typescript": "^3.3.3"
+  }
 }
